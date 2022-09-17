@@ -1,6 +1,7 @@
 from day_01 import solution as solution_part1
 from day_01_part_2 import solution as solution_part2
 
+# TODO extract this logic into utils function
 with open('input_part1.txt', 'r') as f:
     lines = f.readlines()
     measurements = [int(entry.strip()) for entry in lines]
