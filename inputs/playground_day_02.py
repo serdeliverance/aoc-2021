@@ -1,5 +1,4 @@
-from day_02 import solution as solution_part1
-from day_02_part_2 import solution as solution_part2
+from day_03a import solution as solution_day3
 
 
 def read_input(file_name):
@@ -11,13 +10,13 @@ def read_input(file_name):
     return commands
 
 
-input = read_input('input.txt')
+input = read_input('input_day_03_part1.txt')
 
 # result = solution_part1(input)
 
 # print(f"result part 1: {result}")
 
 # part 2
-result_2 = solution_part2(input)
+result_2 = solution_day3(input)
 
 print(f"result part 2: {result_2}")
